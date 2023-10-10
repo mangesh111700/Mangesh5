@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="java.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="Apply_box">
+            <h1>Job Application
+                <span class="title_small">
+                    (Web)
+                </span>
+            </h1>
+            <form action="">
+                <div class="form_container">
+                    <div class="form_control">
+                        <label for="first_name">First name <br></br> </label>
+                        <input id="first_name" name="first_name" placeholder="Enter first name" size="25" maxlength="200"  />
+                    </div>
+                    <div class="form_control">
+                        <label for="second_name">Last name<br></br> </label>
+                        <input id="second_name" name="second_name" placeholder="Enter second name" />
+                    </div>
+                    <div class="form_control">
+                        <p> <b> Select Your Gender</b><br></br></p>
+                        <lable><input type="radio" name="act" value="one" />Male</lable>
+                        <lable><input type="radio" name="act" Value="Two" />Female</lable>
+                        <lable><input type="radio" name="act" Value="three" />Other</lable>
+                    </div>
+                    <p> <b> Which of the following Account do you have ?</b><br></br></p>
+                    <lable><input type="checkbox" name="act" value="one" />Gmail</lable>
+                    <lable><input type="checkbox" name="act" value="two" />Facebook</lable>
+                    <lable><input type="checkbox" name="act" value="three" />Twitter</lable>
+                    <lable><input type="checkbox" name="act" value="four" />Google</lable>
+                    </p>
+
+                    <div class="form_control">
+                        <label for="Email ID"> Enter Your Email ID <br></br></label>
+                        <input id="Email ID" name="Email ID" placeholder="Enter Email ID" />
+                    </div>
+                    <div class="form_control">
+                        <label for="Job Role">Job Role<br></br> </label>
+                        <select id="Job_Role" name="Job_Role">
+                            <option value="devloper">devloper</option>
+                            <option value="devloper">devloper</option>
+                            <option value="devloper">devloper</option>
+                            <option value="devloper">devloper</option>
+                            
+                        </select>
+                    </div>
+                    <div class="textarea_control">
+                        <label for="Address">Address<br></br> </label>
+                        <textarea name="Address" id="Address" cols="30" rows="5" placeholder="Enter"></textarea>
+                    </div>
+                    <div class="form_control">
+                        <label for="City">City <br></br></label>
+                        <input id="City" name="City" placeholder="Enter City" />
+                    </div>
+                    <div class="form_control">
+                        <label for="Pincode">Pincode<br></br> </label>
+                        <input type="number" id="Pincode" name="Pincode" placeholder="Enter Pincode" />
+                    </div>
+                    <div class="form_control">
+                        <label for="Date">Date of Birth<br></br> </label>
+                        <input type="date" id="Date" name="Date" />
+                    </div>
+                    <div class="form_control">
+                        <label for="Upload">Upload your CV<br></br></label>
+                        <input type="file" id="Upload" name="Upload" />
+                    </div>
+                </div>
+                <div class="button_container">
+                    <button type="submit">Apply Now</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
